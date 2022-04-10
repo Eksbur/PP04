@@ -1,0 +1,315 @@
+﻿@font-face {
+font-family: "unch";
+src:url(font/shadow.ttf) format("truetype");
+}
+body{
+margin: 0;
+height: 100%;
+width: 100%;
+max-width: 100%;
+}
+.d1 input {
+height: 42px;
+padding-left: 10px;
+border: 2px solid #ffffff;
+border-radius: 5px;
+outline: none;
+background: #FFFFFF;
+color: #9E9C9C;
+}
+body {
+background: #f0f4f4;
+font-size: 20px;
+line-height: 50px;
+font-family: 'unch', sans-serif;
+font-weight: 300;
+}
+h2 {
+font-size: 50px;
+}
+h11 {
+color: #c56518;
+}
+h3 {
+text-align: justify;
+color: #000;
+}
+h4 {
+font-size: 40px;
+}
+h7 {
+font-size: 25px;
+padding: 20px 0px 0px;
+color: #fff;
+}
+
+h5 {
+font-size: 25px;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a , h7 a {
+color: #000;
+text-decoration: none;
+}
+h1 strong, h2 strong, h3 strong, h4 strong, h5 strong , h7 strong{
+font-weight: 600;
+}
+a:hover {
+color: #c56518;
+border-bottom-color: transparent;
+}
+p {
+display: block;
+font-size: 20px;
+line-height: 50px;
+}
+p2 {
+display: block;
+font-size: 20px;
+line-height: 50px;
+
+}
+hr{
+border: none; /* Убираем границу */
+    background-color:#000; /* Цвет линии */
+    color: #000; /* Цвет линии для IE6-7 */
+    height: 3px; /* Толщина линии */	
+	width: 100%;
+}
+.button {
+position: relative;
+display: inline-block;
+background-image: url("../images/logops1.png");
+color: #000000;
+text-align: center;
+border-radius: 50px;
+border: 0;
+cursor: pointer;
+font-weight: 250px;
+top:-30px;
+transition: 1s;
+}
+.button:hover {
+transform: scale(1.2);
+}
+.button1 {
+border: none;
+background: #FFF;
+color: #000000;
+text-align: center;
+text-decoration: none;
+width:100%;
+padding:20px;
+}
+.button1:hover {
+color: #fff;
+background: #000;
+}
+#menuznach a{
+margin-right: 50px;
+margin-left: 250px;
+margin-bottom: 100px;
+transition: 3s;
+display: block; /*  Рисунок как блочный элемент */
+width: 100px; /* Ширина рисунка */
+height: 100px; /*  Высота рисунка */
+float:left; 
+text-align:center;
+}
+
+
+#menuznach a.image1{
+background-image: url("../images/pc.png");	
+transition: all 0.5s linear	
+}
+#menuznach a.image1:hover{
+background-image: url("../images/pc2.png");
+transition: all 0.5s linear	
+}
+
+#menuznach a.image2{
+background-image: url("../images/ps.png");
+transition: all 0.5s linear		
+}
+#menuznach a.image2:hover{
+background-image: url("../images/ps2.png");
+transition: all 0.5s linear	
+}
+
+#menuznach a.image3{
+background-image: url("../images/xbox.png");
+transition: all 0.5s linear		
+}
+#menuznach a.image3:hover{
+background-image: url("../images/xbox22.png");
+transition: all 0.5s linear	
+}
+
+#menuznach a.image4{
+background-image: url("../images/nin.png");	
+transition: all 0.5s linear	
+}
+#menuznach a.image4:hover{
+background-image: url("../images/nin2.png");
+transition: all 0.5s linear	
+}
+
+#banner {
+background: #fff;
+text-align: center;
+padding: 45px 50px 100px 50px;
+margin: 200px 0px 0px 0px;
+}
+#fon1 {
+position: relative;
+margin: 0;
+text-align: center;
+padding: 100px 0px 150px 0px;
+top:-90px;
+}
+#fon1 h1 {
+color: #fff;
+font-size: 90px;
+}
+#fon1 h1 a {
+color: #fff;
+}
+#fon2 {
+position: relative;
+}
+#fon1 .button {
+border-radius: 100%;
+width: 120px;
+height: 120px;
+line-height: 120px;
+font-size: 120,5px;
+padding: 0;
+}
+
+.exclusive {
+    padding: 5px;
+    float: left;
+    margin-right: 2%;
+	margin: 70px 80px 50px 200px;
+}
+.game {
+width: 15em;
+background: #fff;
+text-align: center;
+margin: 40px 100px 0px 0px;
+border-radius: 10px;
+border-width: medium ;
+float: left;
+
+}
+.game:hover {
+	background: #fff;
+	transform: scale(1.1);
+	transition: 1s; /* Время эффекта */
+
+}
+   .game {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+   .game:hover :hover {
+    transform: scale(1.1,5); /* Увеличиваем масштаб */
+   }
+.image img {
+width: 15em;
+transition: 3s;
+    width: 300px;
+    height: 300px;
+}
+.container {
+  overflow: hidden;
+
+}
+
+.filterDiv {
+  display: none; /* Скрыто по умолчанию */
+      float: left;
+}
+
+/* В класс "show" добавляется к отфильтрованные элементы */
+.show {
+  display: block;
+}
+
+/* Стиль кнопок */
+.btn {
+border: none;
+font-size: 0.9em;
+background: #262324;
+color: #fff;
+text-align: center;
+text-decoration: none;
+width:130px;
+padding:20px 0px;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 10px;
+cursor: pointer;	
+}
+/* Добавить светло-серый фон на наведении курсора мыши */
+.btn:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.btn_2 {
+    opacity: 0;
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 300px;
+    background: #fff;
+    left: calc(50% - 100px);
+    color:#000;
+	font-family: 'unch', sans-serif;
+	border-radius: 5px;
+	transition: all 0.5s linear;
+	margin: 0px 5px 20px;	
+}
+.btn_2:hover {
+	background:  #c56518;
+	color: #000;
+}
+.game:hover .btn_2  {
+    opacity: 1;
+    transition: opacity .3s;
+	transition: all 0.5s linear;
+	cursor: pointer;
+}
+input[type=submit] {
+font-size: 20px;
+background: #262324;
+color: #fff;
+text-decoration: none;
+transition:all 0.3s;
+font-family: 'unch', sans-serif;
+border-radius: 5px;
+border-style:dashad;
+border-color:#fff;
+border-style:inset;	
+width:100px;
+cursor: pointer;
+margin-bottom: 40px;	
+}
+input[type=submit]:hover {
+color: #262324;
+background: #fff;
+border-color:#c56518;
+}
+.img img {
+width: 100px;
+height: 100px;
+margin:0px;
+}
+.fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    font-style: italic; /* Курсивное начертание */
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 5px; /* Отступ снизу */
+    color: #666; /* Цвет подрисуночной подписи */
+   }
